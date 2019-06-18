@@ -11,9 +11,7 @@ class UserController extends Controller {
       base.sendJson(req, ctx);
     } catch (err) {
       base.error(err, ctx);
-      
     }
-    
   }
 }
 module.exports = UserController;
